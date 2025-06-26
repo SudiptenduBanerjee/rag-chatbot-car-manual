@@ -5,7 +5,7 @@ This project implements a **Retrieval-Augmented Generation (RAG)** chatbot that 
 ## Features
 - Extracts text from a car manual PDF using `PyPDF2`.
 - Splits text into chunks and indexes them in a **FAISS** vector store with **Hugging Face** embeddings (`all-MiniLM-L6-v2`).
-- Uses **Groq**'s free LLM (`mixtral-8x7b-32768`) to generate accurate responses.
+- Uses **Groq**'s free LLM (`llama3-8b-8192`) to generate accurate responses.
 - Includes an interactive interface in Colab for user-friendly querying.
 - Answers questions like:
   - "What does the check engine light mean?"
